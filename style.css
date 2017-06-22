@@ -7,3 +7,9 @@ section {
 .title-project{
   margin-top: 20px;
 }
+
+.panel-block {
+  height: 400px;
+  border-radius: 25px;
+  background-color: mistyrose;
+}
