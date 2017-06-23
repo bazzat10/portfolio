@@ -13,3 +13,7 @@ section {
   border-radius: 25px;
   background-color: mistyrose;
 }
+
+.panel-block:hover {
+  border-color: red;
+}
