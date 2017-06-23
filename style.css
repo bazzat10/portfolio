@@ -17,3 +17,7 @@ section {
 .panel-block:hover {
   border-color: red;
 }
+
+img {
+  border-radius: 15px;
+}
