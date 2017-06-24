@@ -25,6 +25,7 @@ $(".ga-online-bank").click(function(){
 });
 
 $(document).ready(function(){
+  console.log('test');
   $("#about-me-img").attr("src","barry1.png");
   var images = [], x = 0;
   images[0] = "barry2.png";
