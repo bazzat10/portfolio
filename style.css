@@ -28,8 +28,8 @@ img {
   border-radius: 15px;
 }
 
-.about-me-img {
+#about-me-img {
   height: 350px;
   width: 300px;
-  border-radius: 50%;
+  border-radius: 40%;
 }
