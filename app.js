@@ -24,26 +24,24 @@ $(".ga-online-bank").click(function(){
   window.location.href ="https://bazzat10.github.io/ga_bank/"
 });
 
-$(document).ready(function(){
-  console.log('test');
-  $("#about-me-img").attr("src","barry1.png");
-  var images = [], x = 0;
-  images[0] = "barry2.png";
-  images[1] = "barry3.png";
-  images[2] = "barry4.png";
-  images[3] = "barry5.png";
-  images[4] = "barry1.png";
 
-  function changeImage() {
-    // var img = document.getElementById("about-me-img");
-    // img.src = images[x];
-    $("#about-me-img").attr("src",images[x]);
-    x++;
+$("#about-me-img").attr("src","barry1.png");
+var images = [], x = 0;
+images[0] = "barry2.png";
+images[1] = "barry3.png";
+images[2] = "barry4.png";
+images[3] = "barry5.png";
+images[4] = "barry1.png";
 
-    if(x >= images.length){
-        x = 0;
-    }
+function changeImage() {
+  // var img = document.getElementById("about-me-img");
+  // img.src = images[x];
+  $("#about-me-img").attr("src",images[x]);
+  x++;
 
- };
-  setInterval(changeImage, 5000);
-});
+  if(x >= images.length){
+      x = 0;
+  }
+
+};
+setInterval(changeImage, 5000);
