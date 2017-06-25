@@ -29,22 +29,24 @@ $(".ga-online-bank").click(function(){
 
 // Change image on About Me - using timer
 // $("#about-me-img").attr("src","barry1.png");
-var images = [], x = 0;
-images[0] = "barry2.png";
-images[1] = "barry3.png";
-images[2] = "barry4.png";
-images[3] = "barry5.png";
-images[4] = "barry1.png";
+$(document).ready(function(){
+  var images = [], x = 0;
+  images[0] = "barry2.png";
+  images[1] = "barry3.png";
+  images[2] = "barry4.png";
+  images[3] = "barry5.png";
+  images[4] = "barry1.png";
 
-function changeImage() {
-  // var img = document.getElementById("about-me-img");
-  // img.src = images[x];
-  $("#about-me-img").attr("src",images[x]);
-  x++;
+  function changeImage() {
+    // var img = document.getElementById("about-me-img");
+    // img.src = images[x];
+    $("#about-me-img").attr("src",images[x]);
+    x++;
 
-  if(x >= images.length){
-      x = 0;
-  }
+    if(x >= images.length){
+        x = 0;
+    }
 
-};
-setInterval(changeImage, 5000);
+  };
+  setInterval(changeImage, 5000);
+});
