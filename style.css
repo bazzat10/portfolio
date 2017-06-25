@@ -4,8 +4,10 @@ section {
   background-size: cover;
 }
 
-.title-project{
+.title-about-me,
+.title-project {
   margin-top: 20px;
+  font-family: 'Exo 2', sans-serif;
 }
 
 /*img {
@@ -32,4 +34,8 @@ img {
   height: 350px;
   width: 300px;
   border-radius: 40%;
+}
+
+.footer {
+  padding-top: 10px;
 }
