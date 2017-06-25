@@ -1,9 +1,11 @@
 console.log('JS Connected ... ');
 
 // document.querySelector('.date').innerHTML = Date();
-
+// Show date and time on bottom of the page - scrolling marquee used
 $(".date").html(Date());
 
+
+// Added event listener to projects, linking them to external websites when they are clicked on
 $(".nin-ten-doe").click(function(){
   window.location.href ="https://bazzat10.github.io/Projects/"
 });
@@ -25,6 +27,7 @@ $(".ga-online-bank").click(function(){
 });
 
 
+// Change image on About Me - using timer
 // $("#about-me-img").attr("src","barry1.png");
 var images = [], x = 0;
 images[0] = "barry2.png";
